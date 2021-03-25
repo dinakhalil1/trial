@@ -1,0 +1,107 @@
+/*body {
+  cursor: vertical-text; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  /*color: #777;*/
+  /*background-color: #eee;*/
+  /*background: #fcf8f5;*/
+  /*background: white;*/
+
+
+/* ---- reset ---- */ 
+body{ 
+  margin:0; 
+  /*font:normal 75% Arial, Helvetica, sans-serif; */
+  font-family: 'PT Serif', serif;
+  /*font-family: "Pathway Gothic One", Impact;*/
+  background-color: black;
+  /*padding: 20px;*/
+  } 
+
+ /* canvas{ 
+    display: hidden; 
+    vertical-align: bottom; 
+
+  } */
+
+    /* ---- particles.js container ---- */ 
+    #particles-js{ 
+      position:absolute; width: 100%; height: 100%; 
+      background-color: black; 
+      background-image: url(""); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: 50% 50%; 
+      } /* ---- stats.js ---- */ 
+
+      .count-particles{ 
+        /*background: #000022; */
+        position: absolute; top: 120px; left: 0; width: 700px;
+        left: 25%; 
+        /*color: #13E8E9; */
+        color: red;
+        font-size: .75em; 
+        text-align: center; 
+        text-indent: 0px; 
+        line-height: 7px; 
+        padding-bottom: 2px; 
+        letter-spacing: .80px;
+        /*font-family: Helvetica, Arial, sans-serif; font-weight: bold; */
+        /*font-family: 'PT Serif', serif;*/
+      
+        } 
+
+        
+
+        .count-particles{ 
+        border-radius: 0 0 3px 3px; 
+        }
+
+
+
+h2{
+   /*display: inline-block;*/
+    font-weight: 650;
+    line-height: 1.4;
+    font-size: 250%;
+    padding: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    /*color: #373334;*/
+    /*color: #4e55cd;*/
+    color: white;
+    display:inline;
+/*float:right;*/
+}
+
+.quote-container {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 5px 0;
+  /*letter-spacing: 1.5px;*/
+  text-align: left;
+}
+
+a{
+	padding: 15px;
+ color: black;
+ font-weight: 200px;
+ font-size: 23px;
+ text-decoration: none;
+ display: all;
+ position: absolute;
+ z-index: 99;
+ letter-spacing: -1.5px;
+}
+a:hover{
+	 z-index: 99;
+	color: red;
+}
+/*@font-face {
+  font-family: poppins;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: shadow-primary;
+}*/

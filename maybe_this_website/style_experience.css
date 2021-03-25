@@ -1,0 +1,85 @@
+body {
+ /*background: #fcf8f5;*/
+ background-color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+   font-family: prestige-elite-std;
+   font-weight: 700;
+}
+
+#c{
+	position: relative;
+    z-index: 9;
+	opacity: 0.3;
+	color: black;
+}
+
+a{
+	padding: 15px;
+ color: black;
+ font-weight: 200px;
+ font-size: 23px;
+ text-decoration: none;
+ display: all;
+ position: absolute;
+ z-index: 99;
+ letter-spacing: -1.5px;
+}
+a:hover{
+
+  color: red;
+}
+
+#QR{
+	position: fixed;
+  display: inline-block;
+	top: 43%;
+    left: 43%;
+    z-index: -9;
+}
+
+.ratio1-1 {
+  opacity: 1;
+  width: 15%;
+  border : 10px solid red;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin: auto;
+  /*background: #fcf8f5;*/
+  /*background: white;*/
+  position: fixed; 
+  top: 43%;
+  left: 43%;
+  z-index: 9;
+}
+
+.ratio1-1:before {
+  content: '';
+  padding: 50% 0;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.ib {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+/* center body content */
+
+html {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+@font-face {
+  font-family: prestige-elite-std;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: shadow-primary;
+}
